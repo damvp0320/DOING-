@@ -1,4 +1,5 @@
 import { useState } from "react";
+import taskStyle from "../styles/taskStyle.module.css";
 
 interface TaskProps{
     task: string;
@@ -17,13 +18,17 @@ export function Task({ task, taskDate }: TaskProps) {
 
     return (
       <article className="tsk-article">
-        <header className="tsk-header">
-          <input className="tsk-checkbox" type="checkbox" onChange={handleCheckboxChange}></input>
-          <div className="tsk-info-container">
-            <p className="tsk-task">{task}</p>
-            <p className="tsk-date">{taskDate.toLocaleString()}</p>
+        <header className={taskStyle.tskHeader}>
+          <input
+            className={taskStyle.tskCheckbox}
+            type="checkbox"
+            onChange={handleCheckboxChange}
+          ></input>
+          <div className={taskStyle.tskInfoContainer}>
+            <p className={taskStyle.tskTask}>{task}</p>
+            <p className={taskStyle.tskDate}>{taskDate.toLocaleString()}</p>
           </div>
-        </header> 
+        </header>
       </article>
     );
 }

@@ -1,6 +1,5 @@
 import { Task } from "./components/task";
 import "./styles/style.css";
-import "./styles/taskStyle.css";
 import { useState } from "react";
 import Modal from "./components/modal";
 

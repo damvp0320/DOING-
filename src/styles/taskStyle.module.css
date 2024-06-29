@@ -1,4 +1,4 @@
-.tsk-header {
+.tskHeader {
     display: flex;
     background-color: rgb(74, 89, 255);
     border-radius: 10px;
@@ -6,23 +6,23 @@
     margin: 15px;
 }
 
-.tsk-checkbox {
+.tskCheckbox {
     align-self: flex-start;
     height: 30px;
     width: 30px;
 
 }
 
-.tsk-info-container {
+.tskInfoContainer {
     margin: 0px 0px 0px 40px;
 }
 
-.tsk-task {
+.tskTask {
     margin: 0;
     font-size: 20px;
 }
 
-.tsk-date {
+.tskDate {
     margin: 0;
     margin-top: 10px;
     font-size: 15px;
