@@ -7,7 +7,7 @@ export function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   // array of objects objects with task props
-  const [tasks, setTasks] = useState<{ task: string; taskDate: Date }[]>([]);
+  const [tasks, setTasks] = useState < { task: string; taskDate: Date }[]>([]);
 
 
   const handleModal = () => setIsOpen(!isOpen);
@@ -17,12 +17,26 @@ export function App() {
 3
   return (
     <>
-      {/* Iterating all tasks array */}
-      {tasks.map((taskItem, index) => (
-        <Task key={index} task={taskItem.task} taskDate={taskItem.taskDate} />
-      ))}
-      <button onClick={handleModal}>Add task</button>
-      <Modal isOpen={isOpen} onClose={handleModal} onAddTask={handleAddTask} />
+      <div className="appContainer">
+        <div className="tittle">DOING</div>
+        <button className="addTaskBtn" onClick={handleModal}>
+          ADD TASK
+        </button>
+        <div className="taskContainer">
+          {tasks.map((taskItem, index) => (
+            <Task
+              key={index}
+              task={taskItem.task}
+              taskDate={taskItem.taskDate}
+            />
+          ))}
+          <Modal
+            isOpen={isOpen}
+            onClose={handleModal}
+            onAddTask={handleAddTask}
+          />
+        </div>
+      </div>
     </>
   );
 }

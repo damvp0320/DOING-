@@ -19,15 +19,15 @@ export function Task({ task, taskDate }: TaskProps) {
     return (
       <article className="tsk-article">
         <header className={taskStyle.tskHeader}>
+          <div className={taskStyle.tskInfoContainer}>
+            <p className={taskStyle.tskTask}>{task}</p>
+            <p className={taskStyle.tskDate}>{taskDate.toLocaleString()}</p>
+          </div>
           <input
             className={taskStyle.tskCheckbox}
             type="checkbox"
             onChange={handleCheckboxChange}
           ></input>
-          <div className={taskStyle.tskInfoContainer}>
-            <p className={taskStyle.tskTask}>{task}</p>
-            <p className={taskStyle.tskDate}>{taskDate.toLocaleString()}</p>
-          </div>
         </header>
       </article>
     );

@@ -1,6 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap');
+
+
 body{
-  background-color: rgb(41, 41, 41);
-  display: grid;
-  place-content: center;
+  background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.appContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.tittle{
+  font-size: 150px;
+  justify-self: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  background: linear-gradient(to right, #ffffff, #8a8a8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.addTaskBtn{
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #505050;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: "Quicksand", sans-serif;
+}
+
+.addTaskBtn:hover{
+  background-color: #aaaaaa;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.taskContainer{
+  align-self: center;
+  height: 200px;
+  overflow-y: auto;
+}
+.taskContainer::-webkit-scrollbar-track {
+  background-color: rgba(237, 237, 237, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.taskContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(237, 237, 237, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.taskContainer::-webkit-scrollbar {
+  width: 12px;
 }
 
