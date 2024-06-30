@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&display=swap');
+
+.tskHeader {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.273);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 400PX;
+    justify-content: space-between;
+}
+
+.tskCheckbox {
+    /* align-self: flex-start; */
+    height: 40px;
+    width: 40px;
+
+}
+
+.tskInfoContainer {
+    margin: 0px 0px 0px 40px;
+    color: #fff;
+}
+
+.tskTask {
+    margin: 0;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    width: 300px;
+    height: 35px;
+    overflow-y: auto;
+}
+
+.tskDate {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 10px;
+}
+        

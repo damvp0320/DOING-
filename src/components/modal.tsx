@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/modal.css";
+import styles from "../styles/modal.module.css";
 
 interface ModalProps {
   isOpen: boolean;
@@ -28,10 +28,10 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onAddTask }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="modalContainer">
-      <div className="modal">
+    <div className={styles.modalContainer}>
+      <div className={styles.modal}>
         <h1>Add your Task</h1>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <label htmlFor="task">Task to be done:</label>
           <input
             type="text"
@@ -46,7 +46,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onAddTask }) => {
             onChange={handleDateChange}
             required
           />
-          <button type="submit" className="closeBtn">
+          <button type="submit" className={styles.closeBtn}>
             Set
           </button>
         </form>
