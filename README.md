@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+Aquí tienes un README optimizado para GitHub basado en tu proyecto DOING:
+✅ DOING - To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DOING es una aplicación de lista de tareas diseñada para gestionar de manera eficiente las actividades diarias, optimizando el flujo de trabajo y la organización personal.
+🛠️ Tecnologías Utilizadas
 
-Currently, two official plugins are available:
+    Frontend: React, TypeScript
+    Estilos: CSS, diseño modular y responsivo
+    Librerías Adicionales: React Components para crear elementos reutilizables
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Características Principales
 
-## Expanding the ESLint configuration
+    Gestión de Tareas:
+        Creación, edición, eliminación y visualización de tareas.
+        Diseño enfocado en la eficiencia y facilidad de uso.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    Componentes Reutilizables:
+        Implementación de componentes modulares para optimizar el diseño y funcionalidad de la aplicación.
 
-- Configure the top-level `parserOptions` property like this:
+    Diseño Responsivo:
+        Interfaz adaptable a diferentes tamaños de pantalla, asegurando una experiencia de usuario fluida en dispositivos móviles, tablets y escritorio.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+🎯 Objetivos del Proyecto
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+El objetivo principal de DOING es simplificar la gestión de tareas diarias mediante una aplicación intuitiva y altamente personalizable.
+🖥️ Instalación y Uso
+
+    Clona este repositorio:
+
+git clone https://github.com/tu_usuario/doing.git
+
+Navega al directorio del proyecto:
+
+cd doing
+
+Instala las dependencias:
+
+npm install
+
+Ejecuta la aplicación:
+
+    npm start
+
+    Abre tu navegador en http://localhost:3000 para ver la aplicación.
+
+🖼️ Capturas de Pantalla
+
+Añade capturas de las vistas principales de tu aplicación aquí.
+🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes ideas o mejoras, crea un issue o envía un pull request.
+
+    Haz un fork del repositorio.
+
+    Crea una nueva rama para tus cambios:
+
+git checkout -b feature/nueva-funcionalidad
+
+Realiza tus modificaciones y haz un commit:
+
+git commit -m "Descripción de los cambios"
+
+Envía tus cambios:
+
+git push origin feature/nueva-funcionalidad
+
+Abre un pull request para revisión.
