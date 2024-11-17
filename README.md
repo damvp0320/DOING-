@@ -1,4 +1,3 @@
-Aquí tienes un README optimizado para GitHub basado en tu proyecto DOING:
 ✅ DOING - To-Do List Application
 
 DOING es una aplicación de lista de tareas diseñada para gestionar de manera eficiente las actividades diarias, optimizando el flujo de trabajo y la organización personal.
