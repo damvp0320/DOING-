@@ -42,24 +42,9 @@ Ejecuta la aplicación:
 
     Abre tu navegador en http://localhost:3000 para ver la aplicación.
 
-🖼️ Capturas de Pantalla
 
-Añade capturas de las vistas principales de tu aplicación aquí.
-🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Si tienes ideas o mejoras, crea un issue o envía un pull request.
 
-    Haz un fork del repositorio.
-
-    Crea una nueva rama para tus cambios:
-
-git checkout -b feature/nueva-funcionalidad
-
-Realiza tus modificaciones y haz un commit:
-
-git commit -m "Descripción de los cambios"
-
-Envía tus cambios:
 
 git push origin feature/nueva-funcionalidad
 
