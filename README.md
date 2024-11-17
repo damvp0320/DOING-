@@ -26,7 +26,7 @@ El objetivo principal de DOING es simplificar la gestión de tareas diarias medi
 
     Clona este repositorio:
 
-git clone https://github.com/damvp0320/doing.git
+git clone https://github.com/damvp0320/DOING.git
 
 Navega al directorio del proyecto:
 
